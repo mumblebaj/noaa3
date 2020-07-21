@@ -31,7 +31,8 @@ Module.register("MMM-NOAA3", {
             "da": "da",
             "nl": "nl-NL",
             "nb": "nb-NO",
-	    "gr": "gr"
+	    "gr": "gr",
+	    "pl": "pl"
         },
 
         langTrans: {
@@ -44,7 +45,8 @@ Module.register("MMM-NOAA3", {
             "da": "DK",
             "nl": "NL",
             "nb": "NO",
-	    "gr": "GR"
+	    "gr": "GR",
+	    "pl": "PL"
         },
 
         levelTrans: {
@@ -96,7 +98,8 @@ Module.register("MMM-NOAA3", {
             nl: "translations/nl.json",
             nb: "translations/nb.json",
 	    it: "translations/it.json",
-	    gr: "translations/gr.json"
+	    gr: "translations/gr.json",
+	    pl: "translations/pl.json"
         };
 
     },
