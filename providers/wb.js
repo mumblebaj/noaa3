@@ -78,6 +78,7 @@ var lat, lon, zip, city;
                  console.log("Error: " + err.message);
                  callback(null);
              }
+console.log("wb returned data: ", response.status)
              callback(self.parseResponse(body));
          });
      },
@@ -85,6 +86,7 @@ var lat, lon, zip, city;
       parseResponse: function(response) {
      	var self = this;
          var result = JSON.parse(response);
+console.log("result: ", result)
           var current = result.data[0];
           current = {
              current: { 
